@@ -131,6 +131,6 @@ export class ProfileService {
   }
 
   public getJSON(): Observable<any> {
-    return this.http.get('https://renatomateusx.github.io/resume/public/profile.json');
+    return this.http.get('https://renatomateusx.github.io/resumeAngular/public/profile.json');
   }
 }

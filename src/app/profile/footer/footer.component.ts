@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ProfileService } from '../profile.service';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  footerData: any;
+  constructor(private profile: ProfileService) { }
 
   ngOnInit() {
+    this.getIntro();
+  }
+
+  getIntro() {
+    this.profile.getJSON().subscribe(data => {
+      this.footerData = data.introInformation;
+      //console.log(this.footerData);
+    });
   }
 
 }

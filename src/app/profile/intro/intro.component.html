@@ -1,0 +1,44 @@
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green" *ngFor="let intro of introData">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('assets/images/intro.jpg');"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image">
+            <a href="#">
+              <img src={{intro?.image}} alt="Image" />
+            </a>
+          </div>
+          <div class="h2 title">{{intro?.name}}</div>
+          <p class="category text-white">{{intro?.aboutwork}}</p>
+          <!-- <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a> -->
+          <a class="btn btn-primary" href="{{intro?.emailpdf}}" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{intro?.facebook}}" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{intro?.instagram}}" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{intro?.linkedin}}" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{intro?.git}}" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{intro?.skype}}" target="_blank">
+              <i class="fa fa-skype"></i>
+            </a>
+            <!-- <a class="btn btn-default btn-round btn-lg btn-icon" href="#" target="_blank" rel="tooltip" title="Follow me on Google+">
+              <i class="fa fa-google-plus"></i>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

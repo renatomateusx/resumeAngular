@@ -60,8 +60,13 @@
           "skill": "Express",
           "progress": "80%"
         },
+       {
+         "id": "7",
+         "skill": "GraphQL",
+         "progress": "70%"
+       },
         {
-          "id": "7",
+          "id": "8",
           "skill": "MVC",
           "progress": "100%"
         }

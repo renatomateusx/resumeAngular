@@ -14,9 +14,9 @@
   ],
     "basicInformation": [
       {
-        "about": "I´m a Lauro de Freitas based Software Engineer.",
-        "aboutmore": "Front-End and Back-End developer, always looking for new technologies and get aprimorating knowledgment.",
-        "brirthday": "Dec 25, 1986",
+        "about": "FullStack Developer.",
+        "aboutmore": "Front-End and Back-End developer, sempre buscando novas tecnologias e aprimorando conhecimentos. (English Version: https://renato-moura.firebaseapp.com",
+        "brirthday": "25-12-1986",
         "email": "renatomateusx@gmail.com",
         "phone": "55 71 9 9130-6561",
         "address": "84, José Leite - Lauro de Freitas/BA",
@@ -85,38 +85,38 @@
      "exprienceData": [
        {
         "id": "1",
-        "from_to_month_year": "MAY 2019 - TODAY",
+        "from_to_month_year": "MAIO 2019 - ATUALMENTE",
         "organization": "PRODEB",
-        "designation": "Technical Advisor",
-        "details": "SAC Digital, maintenance and development in angular 5. https://sacdigital.ba.gov.br."
+        "designation": "Consultor Técnico",
+        "details": "SAC Digital,  Manutenção e Evolução do Projeto em Angular 5. https://sacdigital.ba.gov.br."
       },
       {
         "id": "2",
-        "from_to_month_year": "APRIL 2014 - MAY 2019",
+        "from_to_month_year": "ABRIL 2014 - MAIO 2019",
         "organization": "CAPGEMINI (SEFAZ)",
-        "designation": "Senior System Analysts",
-        "details": "SPED system, maintenance and development of a SPED system collections making integration with clients services to provide a better way to get results."
+        "designation": "Analista de Sistems Sênior",
+        "details": "Sistema SPED - Integração do SPED com outros sistemas da SEFAZ-BA para melhorar e trazer mais resultados."
       },
       {
         "id": "3",
-        "from_to_month_year": "JUN 2012 - APRIL 2014",
+        "from_to_month_year": "JUNHO 2012 - ABRIL 2014",
         "organization": "IP3 Tecnologia",
         "designation": "Web Developer III",
-        "details": "Maintenance and development of a charging system making integration with clients services to provide a better way to get results."
+        "details": "Sistema de cobrança. Integração com outros sistemas."
       },
       {
         "id": "4",
-        "from_to_month_year": "DECEMBER 2011 - ACTUAL ALTERNATIVE JOB",
+        "from_to_month_year": "DEZEMBRO 2011 - PROJETO ALTERNATIVO",
         "organization": "Tohr PDV",
-        "designation": "Developer/Owner",
-        "details": "Sales System. NF-e and NFC-e."
+        "designation": "Desenvolvedor/Proprietário",
+        "details": "Sistemas de Vendas. NF-e e NFC-e."
       },
       {
         "id": "5",
-        "from_to_month_year": "MARCH 2010 - DECEMBER 2011",
+        "from_to_month_year": "MARÇO 2010 - DEZEMBRO 2011",
         "organization": "WA Sistemas",
-        "designation": "Developer",
-        "details": "ERP maintenance and development looking always to get quality on work."
+        "designation": "Desenvolvedor",
+        "details": "Manutenção em Sistemas ERP."
       }
     ],
 
